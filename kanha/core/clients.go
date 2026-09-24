@@ -220,7 +220,7 @@ func initAssistants() error {
 			)
 		}
 
-		m, _ := assistant.Client.SendMessage(botUsername(), "/start")
+		//m, _ := assistant.Client.SendMessage(botUsername(), "/start")
 		if m != nil {
 			_, _ = m.Delete()
 		}
